@@ -1,2 +1,4 @@
-package ejercicio1;public class alquilerBicis {
+package ejercicio1;
+
+public class alquilerBicis {
 }

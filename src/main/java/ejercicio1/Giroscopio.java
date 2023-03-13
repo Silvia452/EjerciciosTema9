@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class Giroscopio extends Vehiculo {
     private double kilometros;
 
-    public Giroscopio(String marca, String modelo, LocalDateTime fechaCompra, double kilometros) {
+    public Giroscopio(String marca, String modelo, LocalDate fechaCompra, double kilometros) {
         super(marca, modelo, fechaCompra);
         this.kilometros = kilometros;
     }
@@ -18,10 +18,17 @@ public class Giroscopio extends Vehiculo {
         this.kilometros = kilometros;
     }
 
+    public double getTarifa() {
+        return 29.90;
+    }
+
     @Override
     public String toString() {
         return "Giroscopio{" +
                 "kilometros=" + kilometros +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", fechaCompra=" + fechaCompra +
                 '}';
     }
 }

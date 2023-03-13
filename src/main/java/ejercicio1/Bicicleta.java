@@ -1,29 +1,31 @@
 package ejercicio1;
 
-import java.time.LocalDateTime;
-
 public class Bicicleta extends Vehiculo{
 
-    private int claseMarchas;
+    private int velocidades;
 
 
-    public Bicicleta(String marca, String modelo, LocalDateTime fechaCompra, int claseMarchas) {
+    public Bicicleta(String marca, String modelo, LocalDate fechaCompra, int velocidades) {
         super(marca, modelo, fechaCompra);
-        this.claseMarchas = claseMarchas;
+        this.velocidades = velocidades;
     }
 
-    public int getClaseMarchas() {
-        return claseMarchas;
+    public int getVelocidades() {
+        return velocidades;
     }
 
-    public void setClaseMarchas(int claseMarchas) {
-        this.claseMarchas = claseMarchas;
+    public void setVelocidades(int velocidades) {
+        this.velocidades = velocidades;
+    }
+
+    public double getTarifa() {
+        return 4.90;
     }
 
     @Override
     public String toString() {
         return "Bicicleta{" +
-                "claseMarchas=" + claseMarchas +
+                "claseMarchas=" + velocidades +
                 '}';
     }
 }

@@ -6,7 +6,7 @@ public class Segway extends Vehiculo{
     private double kilometros;
     private double alturaMin;
 
-    public Segway(String marca, String modelo, LocalDateTime fechaCompra, double kilometros, double alturaMin) {
+    public Segway(String marca, String modelo, LocalDate fechaCompra, double kilometros, double alturaMin) {
         super(marca, modelo, fechaCompra);
         this.kilometros = kilometros;
         this.alturaMin = alturaMin;
@@ -26,6 +26,10 @@ public class Segway extends Vehiculo{
 
     public void setAlturaMin(double alturaMin) {
         this.alturaMin = alturaMin;
+    }
+
+    public double getTarifa() {
+        return 18.90;
     }
 
     @Override

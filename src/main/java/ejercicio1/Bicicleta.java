@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public abstract class Bicicleta extends Vehiculo{
+public class Bicicleta extends Bici {
 
     private int velocidades;
 
@@ -18,10 +18,7 @@ public abstract class Bicicleta extends Vehiculo{
         this.velocidades = velocidades;
     }
 
-    public double getTarifa(int velocidades) {
-        if (velocidades==10 || velocidades==27){
-            return 4.90;
-        }
+    public double getTarifaAlquilerHora() {
         return 4.90;
 
     }

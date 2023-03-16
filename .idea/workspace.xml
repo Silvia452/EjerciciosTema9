@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="321994f1-ce20-44d8-b045-336d449b347f" name="Changes" comment="Ejercicio 2 completado">
+    <list default="true" id="321994f1-ce20-44d8-b045-336d449b347f" name="Changes" comment="Ejercicio 2 proceso">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Bicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Bicicleta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/LocalDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/LocalDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Giroscopio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Giroscopio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Segway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Segway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Bici.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,8 @@
       <workItem from="1678816731282" duration="2042000" />
       <workItem from="1678882678611" duration="599000" />
       <workItem from="1678890555666" duration="523000" />
-      <workItem from="1678892746145" duration="1088000" />
+      <workItem from="1678892746145" duration="2067000" />
+      <workItem from="1678894907396" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="Clases realizadas">
       <created>1678719867925</created>
@@ -79,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678821507788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejercicio 2 proceso">
+      <created>1678893928228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678893928228</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clases realizadas" />
     <MESSAGE value="Ejercicio 2 completado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 2 completado" />
+    <MESSAGE value="Ejercicio 2 proceso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 2 proceso" />
   </component>
 </project>

@@ -1,30 +1,28 @@
 package ejercicio1;
 
-import java.time.LocalDateTime;
-
-public abstract class Vehiculo {
+public abstract class Bici {
     protected String marca;
     protected String modelo;
     protected LocalDate fechaCompra;
 
-    public Vehiculo(String marca, String modelo, LocalDate fechaCompra) {
+    public Bici(String marca, String modelo, LocalDate fechaCompra) {
         this.marca = marca;
         this.modelo = modelo;
         this.fechaCompra = fechaCompra;
     }
-    public Vehiculo(){
+    public Bici(){
 
     }
-    public abstract double getTarifa();
+    public abstract double getTarifaAlquilerHora();
 
 
     @Override
     public String toString() {
-        return "Vehiculo{" +
+        return "Bici{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
                 ", fechaCompra=" + fechaCompra + '\'' +
-                getTarifa()+ " €/hora"+
+                getTarifaAlquilerHora()+ " €/hora"+
                 '}';
     }
 }

@@ -1,8 +1,6 @@
 package ejercicio1;
 
-import java.time.LocalDateTime;
-
-public class Segway extends Vehiculo{
+public class Segway extends Bici {
     private double kilometros;
     private double alturaMin;
 
@@ -28,7 +26,7 @@ public class Segway extends Vehiculo{
         this.alturaMin = alturaMin;
     }
 
-    public double getTarifa() {
+    public double getTarifaAlquilerHora() {
         return 18.90;
     }
 

@@ -1,8 +1,6 @@
 package ejercicio1;
 
-import java.time.LocalDateTime;
-
-public class Giroscopio extends Vehiculo {
+public class Giroscopio extends Bici {
     private double kilometros;
 
     public Giroscopio(String marca, String modelo, LocalDate fechaCompra, double kilometros) {
@@ -18,7 +16,7 @@ public class Giroscopio extends Vehiculo {
         this.kilometros = kilometros;
     }
 
-    public double getTarifa() {
+    public double getTarifaAlquilerHora() {
         return 29.90;
     }
 

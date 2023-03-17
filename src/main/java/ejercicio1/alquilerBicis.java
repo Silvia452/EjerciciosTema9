@@ -7,12 +7,12 @@ public class alquilerBicis {
         Bici[] bicis = new Bici[6];
         System.out.println("Bienvenido a la tienda de alquiler de bicicletas");
         System.out.println("Estas son las bicicletas disponibles: ");
-        bicis[0] = new Bicicleta("Lapierre", "speed", new LocalDate(1, 1, 2019), 27);
-        bicis[1] = new Segway("Ninebot", "One E+", new LocalDate(1, 1, 2019), 0, 0.5);
-        bicis[4] = new Segway("Immotion", "v8", new LocalDate(1, 1, 2019), 40, 0);
-        bicis[2] = new Giroscopio("Segway", "Nine", new LocalDate(1, 1, 2019), 40);
-        bicis[5] = new Giroscopio("Weebot", "Echo", new LocalDate(1, 1, 2019), 35);
-        bicis[3] = new Bicicleta("Btwin", "riverside", new LocalDate(1, 1, 2019), 10);
+        bicis[0] = new Bicicleta("Lapierre", "speed", new LocalDate(1, 1, 2022), 27);
+        bicis[1] = new Segway("Ninebot", "One E+", new LocalDate(1, 1, 2023), 0, 0.5);
+        bicis[4] = new Segway("Immotion", "v8", new LocalDate(1, 1, 2023), 40, 0);
+        bicis[2] = new Giroscopio("Segway", "Nine", new LocalDate(1, 1, 2023), 40);
+        bicis[5] = new Giroscopio("Weebot", "Echo", new LocalDate(1, 1, 2022), 35);
+        bicis[3] = new Bicicleta("Btwin", "riverside", new LocalDate(1, 1, 2023), 10);
 
         for (Bici bici : bicis) {
             System.out.println(bici);

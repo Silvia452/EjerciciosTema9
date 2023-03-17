@@ -7,8 +7,7 @@ public class LocalDate {
     private int ano;
 
     public LocalDate(int dia, int mes, int ano) {
-        this.dia = dia;
-        this.mes = mes;
+
         this.ano = ano;
     }
 

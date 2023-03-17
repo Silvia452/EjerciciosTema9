@@ -35,6 +35,9 @@ public class Segway extends Bici {
         return "Segway{" +
                 "kilometros=" + kilometros +
                 ", alturaMin=" + alturaMin +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", fechaCompra=" + fechaCompra +
                 '}';
     }
 }

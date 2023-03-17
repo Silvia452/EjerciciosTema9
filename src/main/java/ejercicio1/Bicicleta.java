@@ -26,7 +26,10 @@ public class Bicicleta extends Bici {
     @Override
     public String toString() {
         return "Bicicleta{" +
-                "claseMarchas=" + velocidades +
+                "velocidades=" + velocidades +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", fechaCompra=" + fechaCompra +
                 '}';
     }
 }

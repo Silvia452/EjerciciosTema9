@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="321994f1-ce20-44d8-b045-336d449b347f" name="Changes" comment="Ejercicio 2 proceso">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Bicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Bicicleta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Segway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Segway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Giroscopio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Giroscopio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/alquilerBicis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/alquilerBicis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <workItem from="1678892746145" duration="2067000" />
       <workItem from="1678894907396" duration="1104000" />
       <workItem from="1678985589848" duration="432000" />
-      <workItem from="1679048044463" duration="1679000" />
+      <workItem from="1679048044463" duration="2399000" />
     </task>
     <task id="LOCAL-00001" summary="Clases realizadas">
       <created>1678719867925</created>
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678985652639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ejercicio 2 proceso">
+      <created>1679056066731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679056066731</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

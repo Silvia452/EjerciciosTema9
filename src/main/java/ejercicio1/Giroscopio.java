@@ -17,7 +17,7 @@ public class Giroscopio extends Bici {
     }
 
     public double getTarifaAlquilerHora() {
-        return 29.90;
+        return 9.90;
     }
 
     @Override
